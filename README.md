@@ -1,9 +1,12 @@
-# zero-storage-cloud
+# zero-storage-cloud¹
+
 🚀 Proof of Concept for sharing files merely using URLs - without any server storage! 
 
 ***
 
 A single `.html` file that can generate download links for your (rather small) files. Note that the GitHub pages demo is severely limited.
+
+¹ One could argue about the definition of "cloud storage" in this context since all data is being processed client-side, but this tool still functions like a "cloud".
 
 Needless to say, normal [Base64 Data URIs](https://developer.mozilla.org/en-US/docs/Web/URI/Reference/Schemes/data) would make much more sense in most use cases since they're widely supported.
 
