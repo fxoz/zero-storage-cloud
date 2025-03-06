@@ -17,6 +17,7 @@ Still, this demonstration has some advantages, such as the ability to trigger di
 - GitHub Pages limits URLs to under ~6000 characters, which should equal to about 6KB.
 - The actual `index.html`, when selfhosted, can easily handle files with hundreds of KBs on modern desktop browsers. This includes short (very) low quality videos.
 - From my understanding, it'd be impossible to [hotlink](https://de.wikipedia.org/wiki/Hotlinking) images links generated using this tool.
+- Some server frameworks can raise HTTP `431 - Request Header Fields Too Large`. In this case, you'll need to reconfigure the server.
 
 ![](https://pixvid.org/images/2025/03/06/5-67.webp)
 
