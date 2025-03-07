@@ -1,5 +1,7 @@
 # zero-storage-cloud¹
 
+![Screenshot of download UI](https://iili.io/3KhqWmX.png)
+
 🚀 Proof of Concept for sharing files merely using URLs - without any server storage! 
 
 ***
